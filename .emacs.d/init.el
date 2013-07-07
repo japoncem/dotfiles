@@ -65,6 +65,11 @@
 (global-set-key "\M-d" 'delete-word)
 (global-set-key "\M-h" 'backward-delete-word)
 (global-set-key "\M-u" 'zap-to-char)
+;;----- My edits-----
+(global-set-key "\C-o" 'load-file)
+(global-set-key "\C-^" 'newline)
+(global-set-key "\C-f" 'search-forward)
+(global-set-key "\C-\M-f" 'search-backward)
 
 ;; ---------------------------
 ;; -- JS Mode configuration --
